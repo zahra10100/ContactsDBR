@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    app:cardCornerRadius="10dp"
+    android:elevation="40dp"
+    android:outlineAmbientShadowColor="@color/black"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="8sp"
+        android:id="@+id/card"
+        >
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/woman"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="30dp"
+        android:hint="نام خود را وارد کنید "
+        android:inputType="text"
+
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"
+        android:hint="شماره خود را وارد کنید "
+        android:inputType="text"
+
+
+        />
+    <Button
+        android:id="@+id/btn_sav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="140dp"
+        android:text="save"
+        />
+
+
+</androidx.cardview.widget.CardView>
